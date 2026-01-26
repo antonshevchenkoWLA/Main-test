@@ -1,0 +1,82 @@
+:root {
+	/* Colours */
+	--prosek-orange: #f24815;
+	--prosek-light-gray: #f9f9f9;
+	--prosek-dull-gold: #e4dcc3;
+
+	--navy-blue: #071359;
+	--bright-blue: #2c8cff;
+	--off-black: #151515;
+	--light-blue: #2b656a;
+	--divider-line-blue: #53b7bf;
+	--medium-gray: #707070;
+	--success: #27745e;
+	--alert: #b81429;
+	--disabled: rgba(40, 40, 40, 0.2);
+
+
+
+
+	/* Container Padding */
+
+	--container-top-padding: 40px;
+	--container-bottom-padding: 40px;
+	--container-left-padding: 20px;
+	--container-right-padding: 20px;
+
+	--container-sm-top-padding: 60px;
+	--container-sm-bottom-padding: 60px;
+	--container-sm-left-padding: 40px;
+	--container-sm-right-padding: 40px;
+
+	--container-md-top-padding: 80px;
+	--container-md-bottom-padding: 80px;
+	--container-md-left-padding: 72px;
+	--container-md-right-padding: 72px;
+
+	/* Offset */
+	--container-h1-offset: 15px;
+	--container-h2-offset: 15px;
+	--container-h3-offset: 0px;
+	--container-h4-offset: 0px;
+	--container-h5-offset: 0px;
+	--container-h6-offset: 0px;
+
+	/* Image Zoom */
+	--image-zoom: 1.05;
+
+	/* Paragraph */
+	--paragraph-bottom-margin: 1rem;
+
+	/* Section */
+	--section-width: 1920px;
+	--section-horizontal-padding: var(--container-left-padding);
+	--side-offset: max(calc((100% - var(--section-width)) / 2 + var(--section-horizontal-padding)), var(--section-horizontal-padding));
+}
+
+@media only screen and (min-width: 641px) {
+	:root {
+		--section-horizontal-padding: var(--container-sm-left-padding);
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	:root {
+		--section-horizontal-padding: var(--container-md-left-padding);
+	}
+}
+/* text color utilities */
+.text-prosek-orange { color: var(--prosek-orange); }
+.text-prosek-light-gray { color: var(--prosek-light-gray); }
+.text-prosek-dull-gold { color: var(--prosek-dull-gold); }
+
+.text-navy-blue { color: var(--navy-blue); }
+.text-bright-blue { color: var(--bright-blue); }
+.text-off-black { color: var(--off-black); }
+.text-light-blue { color: var(--light-blue); }
+.text-divider-line-blue { color: var(--divider-line-blue); }
+.text-medium-gray { color: var(--medium-gray); }
+
+.text-success { color: var(--success); }
+.text-alert { color: var(--alert); }
+.text-disabled { color: var(--disabled); }
