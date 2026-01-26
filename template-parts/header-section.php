@@ -1,6 +1,6 @@
 <header id="header" class="relative z-50 group/header-menu">
 	<nav class="header-inner duration-300 transition-[top] bg-white">
-		<div class="container py-8 max-w-full relative z-20">
+		<div class="z-50 relative text-left container ">
 			<div class="flex justify-between max-lg:items-center w-full gap-10">
 				<a href="<?php echo home_url(); ?>">
 					<?php echo get_start_logo(); ?>

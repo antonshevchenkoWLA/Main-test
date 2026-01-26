@@ -117,7 +117,7 @@
         @apply sm:text-[2rem];
 
         /* 56px - > 1025px */
-        @apply leading-snug lg:text-[4rem];
+        @apply leading-snug lg:text-[6rem];
     }
 
     h3,
@@ -171,7 +171,7 @@
     p {
         @apply mb-[--paragraph-bottom-margin];
         /* 24px - > 1025px  */
-        @apply font-bold leading-snug lg:text-[1.4rem];
+        @apply font-bold leading-snug lg:text-[2rem];
     }
 
     a,
