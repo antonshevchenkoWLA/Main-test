@@ -25,13 +25,13 @@ $image_position   = ($media_element && $text_image_block["image_position"] === '
                 <h2 class="ease-right leading-[1] text-left pt-9 pb-9 md:pb-10 text-navy-blue font-light " data-scroll><?php echo wp_kses_post($heading_2); ?></h2>
             <?php endif; ?>
             <?php if ($text): ?>
-                <h5 class="md:w-[49%] ease-left text-left text-navy-blue font-light pb-10 mb-0 pt-6" data-scroll><?php echo wp_kses_post($text); ?></h5>
+                <h5 class="md:w-[73%] md:text-[1.8rem] ease-left text-left text-navy-blue font-light pb-10 mb-0 pt-6" data-scroll><?php echo wp_kses_post($text); ?></h5>
             <?php endif; ?>
             <?php if ($heading_1): ?>
                 <h3 class="ease-left text-left pt-10 font-normal   text-navy-blue  border-t-2  border-t-[var(--divider-line-blue)]" data-scroll><?php echo esc_html($heading_3); ?></h3>
             <?php endif; ?>
             <?php if ($text): ?>
-                <h5 class="md:w-[49%] ease-right text-left text-navy-blue font-light  pt-6" data-scroll><?php echo wp_kses_post($text_copy); ?></h5>
+                <h5 class="md:w-[73%] ease-right md:text-[1.8rem] text-left text-navy-blue font-light  pt-6" data-scroll><?php echo wp_kses_post($text_copy); ?></h5>
             <?php endif; ?>
 
         </div>

@@ -13,7 +13,7 @@ $layout       = !empty($news_section["layout"]) ? $news_section["layout"] : '';
             <p class="ease-left text-left pt-6 font-bold uppercase text-[20px] text-navy-blue  border-t-2  border-t-[var(--divider-line-blue)] " data-scroll><?php echo wp_kses_post($heading_2); ?></p>
         <?php endif; ?>
         <?php if ($heading): ?>
-            <h2 class="ease-right leading-[1] text-left  text-navy-blue font-light " data-scroll><?php echo wp_kses_post($heading); ?></h2>
+            <h2 class="md:text-[64px] ease-right leading-[1] text-left  text-navy-blue font-light " data-scroll><?php echo wp_kses_post($heading); ?></h2>
         <?php endif; ?>
 
         <?php if ($text): ?>
@@ -44,14 +44,14 @@ $news            = new WP_Query($news_args); ?>
 <?php endif;
 wp_reset_query(); ?>
 
-<div class="flex flex-row-reverse items-center justify-between py-8 ease-left container" data-scroll>
+<div class="flex flex-row-reverse items-center justify-between py-8 ease-right container" data-scroll>
     <?php if ($layout === "slider"): ?>
-        <div class="flex gap-x-8 swiper-nav  " >
+        <div class="flex gap-x-8 swiper-nav  ease-rightdata-scroll" >
             <?php get_component('swiper-nav', ['prefix' => 'news']); ?>
         </div>
     <?php endif; ?>
 
-    <a class="flex items-center gap-x-4 p-3 pl-6 pr-6 swiper-nav border border-[var(--bright-blue)] text-[var(--navy-blue)]"href="<?php echo esc_url(get_the_permalink(get_option('page_for_posts'))); ?>"
+    <a class="ease-left flex items-center gap-x-4 p-3 pl-6 pr-6 swiper-nav border border-2 hover:bg-[var(--bright-blue)] hover:text-white border-[var(--bright-blue)] text-[var(--navy-blue)]" data-scroll href="<?php echo esc_url(get_the_permalink(get_option('page_for_posts'))); ?>"
 
        class="button button-alt"><?php echo esc_html($button_text); ?>
         <svg width="25" height="15" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">

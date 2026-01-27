@@ -6,10 +6,10 @@
         </div>
         <div>
             <div class="mb-4 line-clamp-3">
-                <h6 class="ease-left text-left pt-5 font-light text-navy-blue" data-scroll><?php echo esc_html( get_the_title() ); ?></h6>
+                <h4 class="ease-left text-left pt-5 font-light text-navy-blue" data-scroll><?php echo esc_html( get_the_title() ); ?></h4>
             </div>
 
-            <div class="flex justify-between items-center  ">
+            <div class="flex justify-between flex-row-reverse items-center  ">
                 <time class="text-mb" datetime="<?php echo get_the_time( 'c' ); ?>">
                     <?php echo get_the_date( 'd.m.y' ); ?>
                 </time>
