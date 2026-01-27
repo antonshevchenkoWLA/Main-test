@@ -1,7 +1,8 @@
-<header id="header" class="relative z-50 group/header-menu">
+<header id="header" class="relative z-50 group/header-menu " >
 	<nav class="header-inner duration-300 transition-[top] bg-white">
 		<div class="z-50 relative text-left container ">
-			<div class="flex justify-between max-lg:items-center w-full gap-10">
+			<div class="ease-top flex justify-between max-lg:items-center w-full gap-10"data-scroll>
+
 				<a href="<?php echo home_url(); ?>">
 					<?php echo get_start_logo(); ?>
 				</a>

@@ -153,7 +153,7 @@
         @apply sm:text-[1.75rem];
 
         /* 32px - > 1025px */
-        @apply font-bold leading-snug lg:text-[2rem];
+        @apply  leading-snug lg:text-[1.3rem];
     }
 
     h6,
@@ -171,7 +171,7 @@
     p {
         @apply mb-[--paragraph-bottom-margin];
         /* 24px - > 1025px  */
-        @apply font-bold leading-snug lg:text-[2rem];
+        @apply font-light text-[var(--navy-blue)] leading-snug lg:text-[1.5rem];
     }
 
     a,

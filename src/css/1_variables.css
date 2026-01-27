@@ -8,7 +8,7 @@
 	--bright-blue: #2c8cff;
 	--off-black: #151515;
 	--light-blue: #2b656a;
-	--divider-line-blue: #53b7bf;
+	--divider-line-blue: #C7E0EB;
 	--medium-gray: #707070;
 	--success: #27745e;
 	--alert: #b81429;
@@ -31,8 +31,8 @@
 
 	--container-md-top-padding: 80px;
 	--container-md-bottom-padding: 80px;
-	--container-md-left-padding: 72px;
-	--container-md-right-padding: 72px;
+	--container-md-left-padding: 9.167vw;
+	--container-md-right-padding: 9.167vw;
 
 	/* Offset */
 	--container-h1-offset: 15px;
@@ -74,7 +74,7 @@
 .text-bright-blue { color: var(--bright-blue); }
 .text-off-black { color: var(--off-black); }
 .text-light-blue { color: var(--light-blue); }
-.text-divider-line-blue { color: var(--divider-line-blue); }
+.text-divider-line-blue { color: var(   ); }
 .text-medium-gray { color: var(--medium-gray); }
 
 .text-success { color: var(--success); }
