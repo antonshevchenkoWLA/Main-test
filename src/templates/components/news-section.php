@@ -44,7 +44,7 @@ $news            = new WP_Query($news_args); ?>
 <?php endif;
 wp_reset_query(); ?>
 
-<div class="flex flex-row-reverse items-center justify-between py-8 ease-right container" data-scroll>
+<div class="flex flex-row-reverse items-center justify-between py-8 pb-20 ease-right container" data-scroll>
     <?php if ($layout === "slider"): ?>
         <div class="flex gap-x-8 swiper-nav  ease-rightdata-scroll" >
             <?php get_component('swiper-nav', ['prefix' => 'news']); ?>

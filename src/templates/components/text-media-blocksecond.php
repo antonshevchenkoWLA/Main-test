@@ -16,6 +16,7 @@ $image_position   = ($media_element && $text_image_block["image_position"] === '
 ?>
 
 <?php if ($heading_1 || $heading_2 || $text || $media_element): ?>
+<div class="bg-[#F4F9FB]">
 	<div class="container ">
         <div id="about" class=" gap-8 md:flex-row lg:gap-16 ">
             <?php if ($heading_1): ?>
@@ -33,9 +34,7 @@ $image_position   = ($media_element && $text_image_block["image_position"] === '
             <?php if ($text): ?>
                 <h5 class="md:w-[73%] ease-right md:text-[1.8rem] text-left text-navy-blue font-light  pt-6" data-scroll><?php echo wp_kses_post($text_copy); ?></h5>
             <?php endif; ?>
-
         </div>
-
-
 	</div>
+</div>
 <?php endif; ?>

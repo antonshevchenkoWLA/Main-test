@@ -5,7 +5,8 @@ $text       = ! empty($accordion_section["text"]) ? $accordion_section["text"] :
 $accordion         = ! empty($accordion_section["accordion"]) ? $accordion_section["accordion"] : [];
 
 if ($accordion) : ?>
-	<div id="investment-strategy" class="container flex items-end pt-0 flex flex-col gap-8 md:flex-row lg:gap-16 ">
+<div class="bg-[#F4F9FB]">
+	<div id="investment-strategy" class="bg-[#F4F9FB] container flex items-end pt-0 flex flex-col gap-8 md:flex-row lg:gap-16 ">
 		<div class="accordion accordion-container accordions-list gap-8 md:flex-row lg:gap-16">
             <?php if ($heading_1): ?>
             <h3 class="ease-left text-left pt-10 font-normal  pb-10 text-navy-blue  border-t-2  border-t-[var(--divider-line-blue)]" data-scroll><?php echo esc_html($heading_1); ?></h3>
@@ -13,8 +14,8 @@ if ($accordion) : ?>
 			<?php foreach ($accordion as $accordion_item) : ?>
 				<div class="group/accordion-item mb-7 sm:mb-8 last:mb-0 ease-btm accordion-item accordion-button" data-scroll>
 					<div class="group/accordion-header accordion-header">
-						<h3 class="border-current border-b font-light  pb-1 text-[#071359] hover:opacity-100 hover:font-bold hover:text-[var(--bright-blue)] opacity-40     "    >
-							<button class="flex justify-between items-center gap-2.5 pr-4 sm:pr-2.5 outline-none w-full text-left accordion-trigger">
+						<h3 class="border-current border-b font-light  pb-1 text-[#071359] hover:opacity-100  group-[.is-active]/accordion-item:opacity-100 opacity-40     "    >
+							<button class=" group-[.is-active]/accordion-item:text-[#2C8CFF]  flex justify-between items-center gap-2.5 pr-4 sm:pr-2.5 outline-none w-full text-left accordion-trigger">
 								<?php echo esc_html($accordion_item['heading']) ?? ''; ?>
 								<span class="ml-auto w-5 sm:w-7 h-5 sm:h-7 accordion-icon-1"></span>
 							</button>
@@ -37,4 +38,5 @@ if ($accordion) : ?>
 
         </div>
     </div>
+</div>
 <?php endif; ?>

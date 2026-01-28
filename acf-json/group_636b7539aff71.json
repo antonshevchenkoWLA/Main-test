@@ -507,6 +507,90 @@
             ]
         },
         {
+            "key": "field_6979cd862cc90",
+            "label": "Home Page - Text and Image baner",
+            "name": "home_page_-_text_and_image_baner",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "<img src='https:\/\/testmain.local\/wp-content\/uploads\/prosek-assets\/acf-images\/home_page_-_text_and_image.png?v=1757433088' style='width:100%' alt=''\/>",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "row",
+            "sub_fields": [
+                {
+                    "key": "field_6979cd862cc94",
+                    "label": "Enable",
+                    "name": "enable",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_634448f9c876c"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6979cd862cc95",
+                    "label": "Settings",
+                    "name": "settings",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_6346db9b61643"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                },
+                {
+                    "key": "field_6979cd862cc96",
+                    "label": "Text and Image Fields",
+                    "name": "text_and_image_fields",
+                    "aria-label": "",
+                    "type": "clone",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "clone": [
+                        "field_6979cd516db45"
+                    ],
+                    "display": "seamless",
+                    "layout": "block",
+                    "prefix_label": 0,
+                    "prefix_name": 0
+                }
+            ]
+        },
+        {
             "key": "field_67498ed96dc1c",
             "label": "Home Page - Two Column Text Section",
             "name": "home_page_-_two_column_text_section",
@@ -618,5 +702,5 @@
     "description": "",
     "show_in_rest": 0,
     "display_title": "",
-    "modified": 1769513898
+    "modified": 1769592002
 }

@@ -8,7 +8,7 @@
             "name": "header_section_edit",
             "aria-label": "",
             "type": "group",
-            "instructions": "<img src='\/wp-content\/uploads\/prosek-assets\/acf-images\/header-section.jpg' style='width:100%' \/>",
+            "instructions": "<img src='https:\/\/testmain.local\/wp-content\/uploads\/prosek-assets\/acf-images\/header_section_edit.png?v=1752239648' style='width:100%' alt=''\/>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -66,7 +66,7 @@
             "name": "footer_section_edit",
             "aria-label": "",
             "type": "group",
-            "instructions": "<img src='\/wp-content\/uploads\/prosek-assets\/acf-images\/footer-section.jpg' style='width:100%' \/>",
+            "instructions": "<img src='https:\/\/testmain.local\/wp-content\/uploads\/prosek-assets\/acf-images\/footer_section_edit.png?v=1752238918' style='width:100%' alt=''\/>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -132,6 +132,69 @@
                     },
                     "default_value": "",
                     "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6979e5eb896b7",
+                    "label": "Terms",
+                    "name": "terms",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 1,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6979e5ff896b8",
+                    "label": "Privacy",
+                    "name": "privacy",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 1,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6979e60f896b9",
+                    "label": "Disclaimer",
+                    "name": "disclaimer",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 1,
                     "placeholder": "",
                     "prepend": "",
                     "append": ""
@@ -253,6 +316,174 @@
                     "placeholder": "",
                     "prepend": "",
                     "append": ""
+                },
+                {
+                    "key": "field_6979e62c896ba",
+                    "label": "mail text",
+                    "name": "mail_text",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6979e727896bb",
+                    "label": "Locations",
+                    "name": "locations",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6979e738896bc",
+                    "label": "United States",
+                    "name": "united_states",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6979e741896bd",
+                    "label": "United States second",
+                    "name": "united_states_second",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6979e74f896be",
+                    "label": "India",
+                    "name": "india",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6979e75a896bf",
+                    "label": "India second",
+                    "name": "india_second",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_6979e769896c0",
+                    "label": "United Kingdom",
+                    "name": "united_kingdom",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_6979e775896c1",
+                    "label": "United Kingdom second",
+                    "name": "united_kingdom_second",
+                    "aria-label": "",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "rows": "",
+                    "placeholder": "",
+                    "new_lines": ""
                 }
             ]
         },
@@ -262,7 +493,7 @@
             "name": "cookie_consent_banner",
             "aria-label": "",
             "type": "group",
-            "instructions": "<img src='\/wp-content\/uploads\/prosek-assets\/acf-images\/cookie-consent-banner.jpg' style='width:100%' \/>",
+            "instructions": "<img src='https:\/\/testmain.local\/wp-content\/uploads\/prosek-assets\/acf-images\/cookie_consent_banner.png?v=1752239581' style='width:100%' alt=''\/>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -342,7 +573,7 @@
             "name": "404_page",
             "aria-label": "",
             "type": "group",
-            "instructions": "<img src='\/wp-content\/uploads\/prosek-assets\/acf-images\/404-page.jpg' style='width:100%' \/>",
+            "instructions": "<img src='https:\/\/testmain.local\/wp-content\/uploads\/prosek-assets\/acf-images\/404_page.png?v=1752239404' style='width:100%' alt=''\/>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -422,7 +653,7 @@
             "name": "cta_banner",
             "aria-label": "",
             "type": "group",
-            "instructions": "<img src='\/wp-content\/uploads\/prosek-assets\/acf-images\/custom-options.jpg' style='width:100%' \/>",
+            "instructions": "<img src='https:\/\/testmain.local\/wp-content\/uploads\/prosek-assets\/acf-images\/cta_banner.png?v=1752239481' style='width:100%' alt=''\/>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -526,7 +757,7 @@
             "name": "modal",
             "aria-label": "",
             "type": "group",
-            "instructions": "<img src='\/wp-content\/uploads\/prosek-assets\/acf-images\/custom-options.jpg' style='width:100%' \/>",
+            "instructions": "<img src='https:\/\/testmain.local\/wp-content\/uploads\/prosek-assets\/acf-images\/modal.png?v=1752239480' style='width:100%' alt=''\/>",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -1429,5 +1660,6 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1732888690
+    "display_title": "",
+    "modified": 1769596804
 }

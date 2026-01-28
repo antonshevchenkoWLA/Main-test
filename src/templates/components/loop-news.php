@@ -1,6 +1,6 @@
 <article <?php post_class(); ?>>
     <a href="<?php echo esc_url( get_permalink() ); ?>" <?php echo $external_link ? 'target="_blank"' : ''; ?> class="link-with-zoom-img group">
-        <div class="overflow-hidden mb-2 aspect-video rounded-lg">
+        <div class="overflow-hidden mb-2 aspect-video ">
             <?php $image = [ 'image' => get_post_thumbnail_id() ]; ?>
             <?php echo get_attachment_fallback( $image ); ?>
         </div>

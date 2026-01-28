@@ -35,3 +35,4 @@ if ($banner_hide): ?>
         </div>
     <?php endif; ?>
 <?php endif; ?>
+

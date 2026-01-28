@@ -117,8 +117,8 @@ class Footer_Nav_Walker extends Walker_Nav_Menu {
 		/**
 		 * <a> and <li> HTML
 		 */ ?>
-	<div id="menu-item-<?php echo $menu_item->ID ?>" class="level-<?php echo $depth ?> <?php echo $class_names ?> pb-6">
-		<a href="<?php echo $url ?>" <?php echo $target . ' ' . $rel . '' . $aria_current ?> data-title="<?php echo $title ?>" class="level-<?php echo $depth ?> text-sm leading-6 text-gray-600 hover:text-gray-900">
+	<div id="menu-item-<?php echo $menu_item->ID ?>" class="level-<?php echo $depth ?> <?php echo $class_names ?> pb-[36.5px]">
+		<a href="<?php echo $url ?>" <?php echo $target . ' ' . $rel . '' . $aria_current ?> data-title="<?php echo $title ?>" class="level-<?php echo $depth ?> md:text-[32px] font-light leading-6 text-[var(--navy-blue)] hover:text-gray-900">
 			<?php echo $title ?></a>
 		<?php
 		$output .= ob_get_clean();

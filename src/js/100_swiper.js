@@ -85,7 +85,7 @@ if ( swiperNews ) {
 			},
 			1440: {
 				spaceBetween: 50,
-				slidesPerView: 2.25,
+				slidesPerView: 2.15,
 			},
 		},
 	} );

@@ -38,9 +38,7 @@ $image_position   = ($media_element && $text_image_block["image_position"] === '
 					<?php if ($text): ?>
 						<h5 class="text-left text-navy-blue font-light border-t-2  border-t-[var(--divider-line-blue)] pt-6"><?php echo wp_kses_post($text); ?></h5>
 					<?php endif; ?>
-<!--					--><?php //if ($button): ?>
-<!--						--><?php //echo get_button($button, "button button-alt"); ?>
-<!--					--><?php //endif; ?>
+
 				</div>
 			<?php endif; ?>
             <?php if ($media_element): ?>
